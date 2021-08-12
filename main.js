@@ -17,13 +17,6 @@ function renderCoffees(coffees) {
     return html;
 }
 
-// let searchCoffee = document.getElementById('search-coffee');
-// searchCoffee.addEventListener('keypress', function(){
-// let instantText = document.getElementById('instant-text').innerHTML;
-//
-//     return instantText
-// })
-
 
 function updateCoffees(e) {
     e.preventDefault(); // don't submit the form, we just want to update the data
