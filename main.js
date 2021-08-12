@@ -38,6 +38,16 @@ function updateCoffees(e) {
 }
 
 
+var coffeeSelector = document.getElementById("search-coffee")
+
+coffeeSelector.addEventListener("keypress", function (){
+    const selectedCoffee = coffeeSelector.value;
+    const typedCoffee = coffees.filter(names => {
+       return names.name.includes(selectedCoffee) || names.roast.includes(selectedCoffee)
+    });
+    tbody.innerHTML = renderCoffees(typedCoffee);
+});
+
 
 // from http://www.ncausa.org/About-Coffee/Coffee-Roasts-Guide
 var coffees = [
