@@ -4,38 +4,37 @@ body{
     background-color: peachpuff;
 }
 
-.coffee-body{
+
+.coffee-body {
     padding: 15px;
+    width: 10%;
+    /* height: 18rem; */
+    align-content: center;
+    margin: 51px auto auto auto ;
+}
+
+.select-design{
+    padding: 18px;
 }
 
 .title-parent {
     height: 4.7rem;
-    width: 100%;
     text-align: center;
     position: absolute;
 }
-.navbar{
-    display: block;
-}
-
 .coffee-title{
     margin: auto;
     font-size: 4rem;
     font-weight: bold;
     color: chocolate;
+    position: absolute;
+    left: 97rem;
 }
-
-
-table {
-    border-collapse: collapse;
-    margin: 15px 0;
+.navbar{
+    display: block;
+    height: 6.2rem;
+    background-color: #efc7a4;
 }
-
-td, th {
-    border: 1px solid black;
-    padding: 5px 10px;
-}
-
 
 h1{
     font-family: 'MonteCarlo', cursive;
