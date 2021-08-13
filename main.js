@@ -17,13 +17,6 @@ function renderCoffees(coffees) {
     return html;
 }
 
-// let searchCoffee = document.getElementById('search-coffee');
-// searchCoffee.addEventListener('keypress', function(){
-// let instantText = document.getElementById('instant-text').innerHTML;
-//
-//     return instantText
-// })
-
 
 function updateCoffees(e) {
     e.preventDefault(); // don't submit the form, we just want to update the data
@@ -40,7 +33,7 @@ function updateCoffees(e) {
 
 var coffeeSelector = document.getElementById("search-coffee")
 
-coffeeSelector.addEventListener("keypress", function (){
+coffeeSelector.addEventListener("keyup", function (){
     const selectedCoffee = coffeeSelector.value;
     const typedCoffee = coffees.filter(names => {
        return names.name.includes(selectedCoffee) || names.roast.includes(selectedCoffee)
