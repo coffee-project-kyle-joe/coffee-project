@@ -33,7 +33,7 @@ function updateCoffees(e) {
 
 var coffeeSelector = document.getElementById("search-coffee")
 
-coffeeSelector.addEventListener("keypress", function (){
+coffeeSelector.addEventListener("keyup", function (){
     const selectedCoffee = coffeeSelector.value;
     const typedCoffee = coffees.filter(names => {
        return names.name.includes(selectedCoffee) || names.roast.includes(selectedCoffee)
