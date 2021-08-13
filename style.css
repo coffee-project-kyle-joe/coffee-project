@@ -2,6 +2,10 @@
 body{
 
     background-color: peachpuff;
+    background-image: url("../coffee-project/img/coffee-png-background.png");
+    background-position-x: center;
+    background-size: cover;
+    background-blend-mode: difference;
 }
 
 
@@ -11,6 +15,7 @@ body{
     /* height: 18rem; */
     align-content: center;
     margin: 51px auto auto auto ;
+
 }
 
 .select-design{
@@ -38,6 +43,7 @@ body{
 
 h1{
     font-family: 'MonteCarlo', cursive;
+    color: #612d08;
 }
 
 p{
